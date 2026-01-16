@@ -1,4 +1,4 @@
-import Index from "../../modules/home/Index"
+import Index from "../../modules/home/Index.jsx"
 
 function HomePage() {
   return (
