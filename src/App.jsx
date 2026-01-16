@@ -1,13 +1,13 @@
 // App.jsx
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./layout/header/Navbar";
-import Footer from "./layout/footer/Footer";
-import HomePage from "./pages/home/HomePage";
-import AboutPage from "./pages/about/AboutPage";
-import ServicesPage from "./pages/services/ServicesPage";
-import Gallary from "./pages/Gallary/Gallary";
-import ContactPage from "./pages/contact/ContactPages";
-import ScrollToTop from "./component/ScrollToTop"
+import Footer from "./layout/footer/Footer.jsx";
+import HomePage from "./pages/home/HomePage.jsx";
+import AboutPage from "./pages/about/AboutPage.jsx";
+import ServicesPage from "./pages/services/ServicesPage.jsx";
+import Gallary from "./pages/Gallary/Gallary.jsx";
+import ContactPage from "./pages/contact/ContactPages.jsx";
+import ScrollToTop from "./component/ScrollToTop.jsx"
 
 function App() {
   return (
