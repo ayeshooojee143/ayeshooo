@@ -1,0 +1,44 @@
+/* Base card */
+.service-card {
+  background-color: white;
+  padding: 2rem;
+  border: 4px solid transparent; /* initial invisible border */
+  border-radius: 1rem;           /* fully rounded */
+  transition: all 0.3s ease;
+  text-align: center;
+  max-width: 20rem;
+}
+
+/* Hover effect: gradient border + shadow + lift */
+.service-card:hover {
+ border: 2px inset orangered;
+  transform: translateY(-0.5rem); /* lift effect */
+  box-shadow: 0 15px 25px rgba(0,0,0,0.15); /* soft shadow */
+}
+
+.service-card-3d {
+  position: relative;
+  background: #fff;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  transform-style: preserve-3d;
+}
+
+.service-card-3d::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0.08);
+  filter: blur(25px);
+  opacity: 0;
+  transform: translateZ(-30px);
+  transition: opacity 0.4s ease;
+}
+
+.service-card-3d:hover {
+  transform: perspective(1200px) translateY(-12px);
+}
+
+.service-card-3d:hover::after {
+  opacity: 1;
+}

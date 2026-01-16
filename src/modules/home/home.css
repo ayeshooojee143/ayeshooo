@@ -1,0 +1,17 @@
+/* hero section hero height set  */
+
+@media(max-width: 1440px ) {
+    .my-height{
+        height: 100vh;
+    }
+}
+
+
+/* first  about section background image under play button  */
+
+.my-bg{
+    background-image: url("/assets/image-1.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
