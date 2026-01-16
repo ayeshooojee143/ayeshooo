@@ -7,7 +7,7 @@ import PlayBtn from "../../../../component/buttons/PlayBtn";
 
 function AboutOne() {
   return (
-    <div className="pt-20 container mx-auto">
+    <div className="pt-20 container overflow-hidden mx-auto">
       <div className="lg:flex gap-10 py-10">
 
         {/* LEFT IMAGE SECTION */}

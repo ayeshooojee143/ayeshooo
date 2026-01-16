@@ -2,7 +2,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./layout/header/Navbar";
 import Footer from "./layout/footer/Footer";
-import HomePage from "./pages/Home/HomePage";
+import HomePage from "./pages/home/HomePage";
 import AboutPage from "./pages/about/AboutPage";
 import ServicesPage from "./pages/services/ServicesPage";
 import Gallary from "./pages/Gallary/Gallary";
